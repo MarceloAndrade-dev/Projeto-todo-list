@@ -69,7 +69,7 @@ public class TaskService {
         task.setStatus(dto.status());
         taskRepository.save(task);
 
-        return new TaskResponseDTO(task); // Ajuste conforme seu construtor
+        return new TaskResponseDTO(task);
     }
 
     // 🔹 DELETE
